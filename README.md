@@ -1,5 +1,5 @@
 <h1 align="center"><figure>
-  <img src="whatsapp-bots.png">
+  <img src="whatsapp-bots2.png">
 </figure></h1>
 
 ## Requerimentos
