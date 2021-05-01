@@ -5,7 +5,8 @@ import time
 # Abrir o Whatsapp web
 driver = webdriver.Chrome(ChromeDriverManager().install())
 driver.get('https://web.whatsapp.com')
-time.sleep(8)
+while len(driver.find_elements_by_id("side")) <1:
+    time.sleep(1)
 # Contatos ou grupos e mensagem a ser enviada
 contatos = ['Junior Links','Aline Airão']
 mensagem = 'Boa noite Grupo, Agora está funcionando filé'
